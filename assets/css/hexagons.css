@@ -88,7 +88,7 @@ body {
     background-color: rgba(0, 128, 128, 0.8);
     font-weight: 600;
     -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
-    transition: transform .2s ease-out, opacity .3s ease-out;
+    transition: transform .1s ease-out, opacity .1.5s ease-out;
 }
 
 .hex h1 {
