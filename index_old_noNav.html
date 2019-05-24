@@ -15,7 +15,7 @@
 
   <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="assets/css/hexagons.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style_old.css" type="text/css" />
   <!-- <link rel="stylesheet" href="assets/css/hexagons.css" type="text/css" /> -->
 
   <!-- google fonts -->
@@ -228,13 +228,169 @@
       <div class="strip__content">
         <h1 class="strip__title" data-name="Dolor">Skills</h1>
         <div class="strip__inner-text">
-          <h2>Skills</h2>
-          <p>Use absolutely no pressure. Just like an angel's wing. A tree needs to be your friend if you're going to
-            paint him. Just a little indication. The very fact that you're aware of suffering is enough reason to be
-            overjoyed that you're alive and can experience it.</p>
-          <p>
-            <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
-          </p>
+          <h3>Pure CSS carousels</h3>
+          <div class="container carousel-container">
+            <h2>carousel 1</h2>
+            <ul class="carousel my-carousel carousel--translate">
+              <input class="carousel__activator" type="radio" id="A" name="activator" checked="checked" />
+              <input class="carousel__activator" type="radio" id="B" name="activator" />
+              <input class="carousel__activator" type="radio" id="C" name="activator" />
+              <input class="carousel__activator" type="radio" id="D" name="activator" />
+              <input class="carousel__activator" type="radio" id="E" name="activator" />
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="E"></label>
+                <label class="carousel__control carousel__control--forward" for="B"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="A"></label>
+                <label class="carousel__control carousel__control--forward" for="C"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="B"></label>
+                <label class="carousel__control carousel__control--forward" for="D"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="C"></label>
+                <label class="carousel__control carousel__control--forward" for="E"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="D"></label>
+                <label class="carousel__control carousel__control--forward" for="A"></label>
+              </div>
+              <div class="carousel__track">
+                <li class="carousel__slide">
+                  <h1>A</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>B</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>C</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>D</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>E</h1>
+                </li>
+              </div>
+              <div class="carousel__indicators">
+                <label class="carousel__indicator" for="A"></label>
+                <label class="carousel__indicator" for="B"></label>
+                <label class="carousel__indicator" for="C"></label>
+                <label class="carousel__indicator" for="D"></label>
+                <label class="carousel__indicator" for="E"></label>
+              </div>
+            </ul>
+          </div>
+          <div class="carousel-container">
+            <h2>slider 2</h2>
+            <div class="carousel my-carousel carousel--translate">
+              <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" />
+              <input class="carousel__activator" type="radio" name="carousel" id="G" />
+              <input class="carousel__activator" type="radio" name="carousel" id="H" />
+              <input class="carousel__activator" type="radio" name="carousel" id="I" />
+              <input class="carousel__activator" type="radio" name="carousel" id="J" />
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="J"></label>
+                <label class="carousel__control carousel__control--forward" for="G"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="F"></label>
+                <label class="carousel__control carousel__control--forward" for="H"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="G"></label>
+                <label class="carousel__control carousel__control--forward" for="I"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="H"></label>
+                <label class="carousel__control carousel__control--forward" for="J"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="I"></label>
+                <label class="carousel__control carousel__control--forward" for="F"></label>
+              </div>
+              <div class="carousel__track">
+                <li class="carousel__slide">
+                  <h1>F</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>G</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>H</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>I</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>J</h1>
+                </li>
+              </div>
+              <div class="carousel__indicators">
+                <label class="carousel__indicator" for="F"></label>
+                <label class="carousel__indicator" for="G"></label>
+                <label class="carousel__indicator" for="H"></label>
+                <label class="carousel__indicator" for="I"></label>
+                <label class="carousel__indicator" for="J"></label>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-container">
+            <h2>carousel 3</h2>
+            <ul class="carousel my-carousel carousel--translate">
+              <input class="carousel__activator" type="radio" id="P" name="carousel" checked="checked" />
+              <input class="carousel__activator" type="radio" id="Q" name="carousel" />
+              <input class="carousel__activator" type="radio" id="R" name="carousel" />
+              <input class="carousel__activator" type="radio" id="S" name="carousel" />
+              <input class="carousel__activator" type="radio" id="T" name="carousel" />
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="T"></label>
+                <label class="carousel__control carousel__control--forward" for="Q"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="P"></label>
+                <label class="carousel__control carousel__control--forward" for="R"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="Q"></label>
+                <label class="carousel__control carousel__control--forward" for="S"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="R"></label>
+                <label class="carousel__control carousel__control--forward" for="T"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="S"></label>
+                <label class="carousel__control carousel__control--forward" for="P"></label>
+              </div>
+              <div class="carousel__track">
+                <li class="carousel__slide">
+                  <h1>P</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>Q</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>R</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>S</h1>
+                </li>
+                <li class="carousel__slide">
+                  <h1>T</h1>
+                </li>
+              </div>
+              <div class="carousel__indicators">
+                <label class="carousel__indicator" for="P"></label>
+                <label class="carousel__indicator" for="Q"></label>
+                <label class="carousel__indicator" for="R"></label>
+                <label class="carousel__indicator" for="S"></label>
+                <label class="carousel__indicator" for="T"></label>
+              </div>
+            </ul>
+          </div> -->
         </div>
       </div>
     </article>
@@ -242,14 +398,78 @@
       <div class="strip__content">
         <h1 class="strip__title" data-name="Sit">Experience</h1>
         <div class="strip__inner-text">
-          <h2>Photos</h2>
-          <p>Nature is so fantastic, enjoy it. Let it make you happy. Of course he's a happy little stone, cause we
-            don't have any other kind. Mix your color marbly don't mix it dead. The man who does the best job is the
-            one who is happy at his job. I guess that would be considered a UFO. A big cotton ball in the sky.</p>
-          <p>
-            <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
-          </p>
+          <h2>Experience</h2>
+          <div class="container exp">
+            <div class="card text-left text-dark d-flex mx-5">
+              <div class="card-body px-4 py-3">
+                <h3 class="card-title my-1 font-weight-bold">Aspire Benefit Services</h3>
+                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
+                <div class="card-text text-dark">Dublin, OH</div>
+                <div class="card-text text-secondary">January 2016-July 2017</div>
+                <hr class="border border-secondary w-100 my-2" />
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
+                <ul class="list-group ml-4">
+                  <li class="p-1">Managed quoting, implementing, and servicing insurance
+                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
+                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
+                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
+                    measurable customer satisfaction ratings</li>
+                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
+                    metric-drive reports leveraging pivot tables and financial macros</li>
+                </ul>
+              </div>
+            </div>
+            <!-- END CARD 1 -->
+
+            <div class="card text-left text-dark d-flex mx-5 my-1">
+              <div class="card-body px-4 py-3">
+                <h3 class="card-title my-1 font-weight-bold">Job 2</h3>
+                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
+                <div class="card-text text-dark">Dublin, OH</div>
+                <div class="card-text text-secondary">January 2016-July 2017</div>
+                <hr class="border border-secondary w-100 my-2" />
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
+                <ul class="list-group ml-4">
+                  <li class="p-1">Managed quoting, implementing, and servicing insurance
+                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
+                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
+                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
+                    measurable customer satisfaction ratings</li>
+                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
+                    metric-drive reports leveraging pivot tables and financial macros</li>
+                </ul>
+              </div>
+            </div>
+            <!-- END CARD 2 -->
+
+            <div class="card text-left text-dark d-flex mx-5 my-1">
+              <div class="card-body px-4 py-3">
+                <h3 class="card-title my-1 font-weight-bold">Job 3</h3>
+                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
+                <div class="card-text text-dark">Dublin, OH</div>
+                <div class="card-text text-secondary">January 2016-July 2017</div>
+                <hr class="border border-secondary w-100 my-2" />
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
+                <ul class="list-group ml-4">
+                  <li class="p-1">Managed quoting, implementing, and servicing insurance
+                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
+                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
+                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
+                    measurable customer satisfaction ratings</li>
+                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
+                    metric-drive reports leveraging pivot tables and financial macros</li>
+                </ul>
+              </div>
+            </div>
+            <!-- END CARD 3 -->
+
+          </div>
+          <!-- END CONTAINER -->
         </div>
+      </div>
       </div>
     </article>
     <article class="strips__strip">
@@ -342,21 +562,39 @@
                     </a>
                   </div>
                 </li>
-                <!-- <li class="hex">
+                <li class="hex">
                   <div class="hexIn">
-                    <a class="hexLink" href="https://fathomless-temple-48732.herokuapp.com/" target="_blank">
-                      <img src="assets/images/burger.png" alt="Friend Finder" />
-                      <h1>Friend Finder</h1>
-                      <p>Survey to find your closest match!</p>
+                    <a class="hexLink" href="https://www.tradetru.com/" target="_blank">
+                      <img src="assets/images/tradeTru.jpg" alt="Trade Tru" />
+                      <h1>Trade Tru</h1>
+                      <p>Natural wine education courses and information</p>
                     </a>
                   </div>
-                </li> -->
+                </li>
+                <li class="hex">
+                  <div class="hexIn">
+                    <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
+                      <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
+                      <h1>Zoo Animal Hangman</h1>
+                      <p>Animal-Themed Hangman Game</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="hex">
+                  <div class="hexIn">
+                    <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
+                      <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
+                      <h1>Zoo Animal Hangman</h1>
+                      <p>Animal-Themed Hangman Game</p>
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
-        <!-- </div> -->
-      </div>
-      <!-- <div class="container">
+          <!-- </div> -->
+        </div>
+        <!-- <div class="container">
                 <p class="contactSection">Contact Me</p>
                 <ul id="hexGrid">
                   <li class="hex">

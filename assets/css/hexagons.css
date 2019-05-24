@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    /* height: 1200px; */
     margin: 0 auto;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
@@ -52,6 +53,7 @@ body {
 .hexIn * {
     position: absolute;
     visibility: visible;
+    overflow: scroll;
     outline: 1px solid transparent;
     /* fix for jagged edges in FF on hover transition */
 }
@@ -235,7 +237,7 @@ hr {
 
     /* <- 2-1  hexagons per row */
     #hexGrid {
-        padding-bottom: 11.2%
+        /* padding-bottom: 11.2% */
     }
 
     .hex {
