@@ -327,3 +327,12 @@ p {
   margin: 0 auto;
 }
 
+.pupper {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+// sass --watch style.scss style_old.css 
+// to have scss file listen for changes
+// only make changes to the scss file
