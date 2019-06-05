@@ -15,7 +15,7 @@
 
   <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="assets/css/hexagons.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style_old.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <!-- <link rel="stylesheet" href="assets/css/hexagons.css" type="text/css" /> -->
 
   <!-- google fonts -->
@@ -91,53 +91,6 @@
           </div>/.container-fluid
         </nav>
      end navbar -->
-
-  <!-- ERIN NAV -->
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top pupper">
-    <div class="container">
-      <a class="navbar-brand" href="https://github.com/noplanetnoparty" target="_blank">Erin Clancy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <!-- <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul> -->
-      </div>
-    </div>
-  </nav>
-  <!-- <h1 class="text-primary mainTitle container">I wonder what will happen if I try to put a title up here</h1> -->
-
-  <!-- <div class="header">
-    <div class="container">
-      <div class="row topBar"> -->
-  <!-- <img src="assets/images/Mountain_E.jpg" style="width: 800px"> -->
-  <!-- <p class="headBar">
-          Erin Clancy
-        </p>
-      </div>
-    </div>
-  </div>
-  <br><br> -->
-  <!-- <p class="headDiv">Portfolio
-  </p>
-  <hr> -->
-  <!-- <div> -->
   <section class="strips">
     <!-- <article class="strips__strip">
         <div class="strip__content">
@@ -154,7 +107,7 @@
 
         </div>
       </article> -->
-    <article class="strips__strip">
+    <article class="strips__strip strip_one">
       <div class="strip__content">
         <h1 class="strip__title" data-name="Dolor">About</h1>
         <div class="strip__inner-text">
@@ -170,7 +123,7 @@
         </div>
       </div>
     </article>
-    <article class="strips__strip">
+    <article class="strips__strip strip_two">
       <div class="strip__content">
         <h1 class="strip__title" data-name="Ipsum">Contact</h1>
         <div class="strip__inner-text">
@@ -178,8 +131,8 @@
           <ul id="hexGrid">
             <li class="hex">
               <div class="hexIn">
-                <a class="hexLink" href="mailto:eclancy11@gmail.com">
-                  <img src="assets/images/email_portfolio.png" alt="Gmail Logo" />
+                <a class="hexLink">
+                  <img src="assets/images/email_portfolio.png" alt="Gmail Logo" href="mailto:eclancy11@gmail.com" />
                   <h1>Email Me</h1>
                   <p>The quickest way to get in touch</p>
                 </a>
@@ -207,8 +160,8 @@
               <div class="hexIn">
                 <a class="hexLink" href="mailto:eclancy11@gmail.com" target="_blank">
                   <img src="assets/images/email_portfolio.png" alt="Gmail Logo" />
-                  <h1>PLACEHOLDER</h1>
-                  <p>The quickest way to get in touch</p>
+                  <h1>Art Website</h1>
+                  <p>Link to art galleries</p>
                 </a>
               </div>
             </li>
@@ -227,11 +180,19 @@
     <article class="strips__strip">
       <div class="strip__content">
         <h1 class="strip__title" data-name="Dolor">Skills</h1>
-        <div class="strip__inner-text">
+        <div class="strip__inner-text strip_three">
+          <!-- <h2>Skills</h2>
+          <p>Use absolutely no pressure. Just like an angel's wing. A tree needs to be your friend if you're going to
+            paint him. Just a little indication. The very fact that you're aware of suffering is enough reason to be
+            overjoyed that you're alive and can experience it.</p>
+          <p>
+            <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
+          </p> -->
+          <!-- <div class="container"> -->
           <h3>Pure CSS carousels</h3>
-          <div class="container carousel-container">
-            <h2>carousel 1</h2>
-            <div class="carousel my-carousel carousel--translate">
+          <div class="carousel-container">
+            <h2>fade in/out</h2>
+            <ul class="carousel my-carousel">
               <input class="carousel__activator" type="radio" id="A" name="activator" checked="checked" />
               <input class="carousel__activator" type="radio" id="B" name="activator" />
               <input class="carousel__activator" type="radio" id="C" name="activator" />
@@ -257,23 +218,21 @@
                 <label class="carousel__control carousel__control--backward" for="D"></label>
                 <label class="carousel__control carousel__control--forward" for="A"></label>
               </div>
-              <div class="carousel__track">
-                <li class="carousel__slide">
-                  <h1>A</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>B</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>C</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>D</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>E</h1>
-                </li>
-              </div>
+              <li class="carousel__slide">
+                <h1>A</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>B</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>C</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>D</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>E</h1>
+              </li>
               <div class="carousel__indicators">
                 <label class="carousel__indicator" for="A"></label>
                 <label class="carousel__indicator" for="B"></label>
@@ -281,10 +240,10 @@
                 <label class="carousel__indicator" for="D"></label>
                 <label class="carousel__indicator" for="E"></label>
               </div>
-            </div>
+            </ul>
           </div>
           <div class="carousel-container">
-            <h2>slider 2</h2>
+            <h2>slider</h2>
             <div class="carousel my-carousel carousel--translate">
               <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" />
               <input class="carousel__activator" type="radio" name="carousel" id="G" />
@@ -337,15 +296,66 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="carousel-container">
-            <h2>carousel 3</h2>
-            <ul class="carousel my-carousel carousel--translate">
-              <input class="carousel__activator" type="radio" id="P" name="carousel" checked="checked" />
-              <input class="carousel__activator" type="radio" id="Q" name="carousel" />
-              <input class="carousel__activator" type="radio" id="R" name="carousel" />
-              <input class="carousel__activator" type="radio" id="S" name="carousel" />
-              <input class="carousel__activator" type="radio" id="T" name="carousel" />
+          <div class="carousel-container">
+            <h2>thumbnail indicators</h2>
+            <ul class="carousel my-carousel carousel--thumb">
+              <input class="carousel__activator" type="radio" id="K" name="thumb" checked="checked" />
+              <input class="carousel__activator" type="radio" id="L" name="thumb" />
+              <input class="carousel__activator" type="radio" id="M" name="thumb" />
+              <input class="carousel__activator" type="radio" id="N" name="thumb" />
+              <input class="carousel__activator" type="radio" id="O" name="thumb" />
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="O"></label>
+                <label class="carousel__control carousel__control--forward" for="L"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="K"></label>
+                <label class="carousel__control carousel__control--forward" for="M"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="L"></label>
+                <label class="carousel__control carousel__control--forward" for="N"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="M"></label>
+                <label class="carousel__control carousel__control--forward" for="O"></label>
+              </div>
+              <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="N"></label>
+                <label class="carousel__control carousel__control--forward" for="K"></label>
+              </div>
+              <li class="carousel__slide">
+                <h1>K</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>L</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>M</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>N</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>O</h1>
+              </li>
+              <div class="carousel__indicators">
+                <label class="carousel__indicator" for="K"></label>
+                <label class="carousel__indicator" for="L"></label>
+                <label class="carousel__indicator" for="M"></label>
+                <label class="carousel__indicator" for="N"></label>
+                <label class="carousel__indicator" for="O"></label>
+              </div>
+            </ul>
+          </div>
+          <div class="carousel-container">
+            <h2>scale</h2>
+            <ul class="carousel my-carousel carousel--scale">
+              <input class="carousel__activator" type="radio" id="P" name="scale" checked="checked" />
+              <input class="carousel__activator" type="radio" id="Q" name="scale" />
+              <input class="carousel__activator" type="radio" id="R" name="scale" />
+              <input class="carousel__activator" type="radio" id="S" name="scale" />
+              <input class="carousel__activator" type="radio" id="T" name="scale" />
               <div class="carousel__controls">
                 <label class="carousel__control carousel__control--backward" for="T"></label>
                 <label class="carousel__control carousel__control--forward" for="Q"></label>
@@ -366,23 +376,21 @@
                 <label class="carousel__control carousel__control--backward" for="S"></label>
                 <label class="carousel__control carousel__control--forward" for="P"></label>
               </div>
-              <div class="carousel__track">
-                <li class="carousel__slide">
-                  <h1>P</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>Q</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>R</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>S</h1>
-                </li>
-                <li class="carousel__slide">
-                  <h1>T</h1>
-                </li>
-              </div>
+              <li class="carousel__slide">
+                <h1>P</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>Q</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>R</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>S</h1>
+              </li>
+              <li class="carousel__slide">
+                <h1>T</h1>
+              </li>
               <div class="carousel__indicators">
                 <label class="carousel__indicator" for="P"></label>
                 <label class="carousel__indicator" for="Q"></label>
@@ -391,212 +399,162 @@
                 <label class="carousel__indicator" for="T"></label>
               </div>
             </ul>
-          </div> -->
+          </div>
+        </div>
       </div>
       </div>
     </article>
-    <article class="strips__strip">
+    <article class="strips__strip strip_four">
       <div class="strip__content">
         <h1 class="strip__title" data-name="Sit">Experience</h1>
         <div class="strip__inner-text">
-          <h2>Experience</h2>
-          <div class="container exp">
-            <div class="card text-left text-dark d-flex mx-5">
-              <div class="card-body px-4 py-3">
-                <h3 class="card-title my-1 font-weight-bold">Aspire Benefit Services</h3>
-                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
-                <div class="card-text text-dark">Dublin, OH</div>
-                <div class="card-text text-secondary">January 2016-July 2017</div>
-                <hr class="border border-secondary w-100 my-2" />
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
-                <ul class="list-group ml-4">
-                  <li class="p-1">Managed quoting, implementing, and servicing insurance
-                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
-                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
-                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
-                    measurable customer satisfaction ratings</li>
-                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
-                    metric-drive reports leveraging pivot tables and financial macros</li>
-                </ul>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body text-left">
+                  <h5 class="card-title text-dark">Aspire Benefit Services</h5>
+                  <h6 class="card-subtitle mb-2 text-secondary">Account Executive</h6>
+                  <p class="card-text"><small class="text-muted">Dublin, OH</small></p>
+                  <p class="card-text"><small class="text-muted">June 2017 - September 2018</small></p>
+                  <!-- <hr> -->
+                  <h5 class="card-title text-dark">Responsibilities:</h5>
+                  <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">this is the first one</li>
+                      <li class="list-group-item">this is the second one</li>
+                      <li class="list-group-item">this is the third one</li>
+                    </ul>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
               </div>
             </div>
-            <!-- END CARD 1 -->
-
-            <div class="card text-left text-dark d-flex mx-5 my-1">
-              <div class="card-body px-4 py-3">
-                <h3 class="card-title my-1 font-weight-bold">Job 2</h3>
-                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
-                <div class="card-text text-dark">Dublin, OH</div>
-                <div class="card-text text-secondary">January 2016-July 2017</div>
-                <hr class="border border-secondary w-100 my-2" />
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
-                <ul class="list-group ml-4">
-                  <li class="p-1">Managed quoting, implementing, and servicing insurance
-                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
-                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
-                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
-                    measurable customer satisfaction ratings</li>
-                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
-                    metric-drive reports leveraging pivot tables and financial macros</li>
-                </ul>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body text-left">
+                  <h5 class="card-title text-secondary">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-            <!-- END CARD 2 -->
-
-            <div class="card text-left text-dark d-flex mx-5 my-1">
-              <div class="card-body px-4 py-3">
-                <h3 class="card-title my-1 font-weight-bold">Job 3</h3>
-                <h4 class="card-text lead text-dark mb-0">Sales & Service Account Executive</h4>
-                <div class="card-text text-dark">Dublin, OH</div>
-                <div class="card-text text-secondary">January 2016-July 2017</div>
-                <hr class="border border-secondary w-100 my-2" />
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                <h5 class="card-subtitle"><strong>Responsibilities</strong></h5>
-                <ul class="list-group ml-4">
-                  <li class="p-1">Managed quoting, implementing, and servicing insurance
-                    benefits for 60 employer group clients valued at $200K of business as licensed insurance broker</li>
-                  <li class="p-1">Rejuvenated customer engagement through targeted web redesign
-                    (WordPress/CSS) and strategic marketing campaigns which led to 15% increased web traffic and
-                    measurable customer satisfaction ratings</li>
-                  <li class="p-1">Improved managers’ abilities to make strategic decisions through creation of
-                    metric-drive reports leveraging pivot tables and financial macros</li>
-                </ul>
-              </div>
-            </div>
-            <!-- END CARD 3 -->
-
           </div>
-          <!-- END CONTAINER -->
+          <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
+          </p>
         </div>
-        <p style="clear: both;">&nbsp;</p>
-      </div>
       </div>
     </article>
-    <article class="strips__strip">
+    <article class="strips__strip strip_five">
       <div class="strip__content">
         <h1 class="strip__title" data-name="Lorem">Portfolio</h1>
         <div class="strip__inner-text">
           <div class="container">
             <h2>Portfolio</h2>
-            <div class="row">
-              <ul id="hexGrid">
-                <li class="hex">
+            <!-- <div class="row"> -->
+            <ul id="hexGrid">
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://cuiscene.herokuapp.com/" target="_blank">
+                    <img src="assets/images/cuiscene_restaurant.jpg" alt="CuiScene Restaurant" />
+                    <h1>CuiScene</h1>
+                    <p>Restaurant Review & Recipe Log App</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/Gryffyndor-Project1/" target="_blank">
+                    <img src="assets/images/gov_portfolio.jpg" alt="Ohio Gov Portfolio" />
+                    <h1>2018 Ohio Gubernatorial Candidate Site</h1>
+                    <p>Candidate information and NYT Political Artile Search</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/GifSearch/" target="_blank">
+                    <img src="assets/images/giphy_portfolio.jpg" alt="Giphy Search Portfolio" />
+                    <h1>Giphy Search Tool</h1>
+                    <p>Search and Save Your Favorite Gifs</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
+                    <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
+                    <h1>Zoo Animal Hangman</h1>
+                    <p>Animal-Themed Hangman Game</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/TriviaGame/" target="_blank">
+                    <img src="assets/images/trivia_portfolio.jpg" alt="Ohio State Flag" />
+                    <h1>Ohio State Triva Game</h1>
+                    <p>State of Ohio Multiple Choice Trivia Game</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="#" alt="#">
+                    <img src="assets/images/cyrstals_portfolio.jpg" alt="Crystal Picture" target="_blank" />
+                    <h1>Crystal Game</h1>
+                    <p>Simple gem-based math game</p>
+                  </a>
+                </div>
+              </li>
+              <br>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/liri-node-app/" target="_blank">
+                    <img src="assets/images/liri_portfolio.jpg" alt="LIRI Portfolio" />
+                    <h1>LIRI App</h1>
+                    <p>CLI Node Application</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://noplanetnoparty.github.io/bamazon/" target="_blank">
+                    <img src="assets/images/bamazon_portfolio.jpg" alt="Bamazon Portfolio" />
+                    <h1>Bamazon</h1>
+                    <p>Amazon-like storefront CLI app</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="https://floating-wildwood-96845.herokuapp.com/" target="_blank">
+                    <img src="assets/images/burger.png" alt="Burger" />
+                    <h1>Burger Creator</h1>
+                    <p>Create and save your own list of burgers</p>
+                  </a>
+                </div>
+              </li>
+              <!-- <li class="hex">
                   <div class="hexIn">
-                    <a class="hexLink" href="https://cuiscene.herokuapp.com/" target="_blank">
-                      <img src="assets/images/cuiscene_restaurant.jpg" alt="CuiScene Restaurant" />
-                      <h1>CuiScene</h1>
-                      <p>Restaurant Review & Recipe Log App</p>
+                    <a class="hexLink" href="https://fathomless-temple-48732.herokuapp.com/" target="_blank">
+                      <img src="assets/images/burger.png" alt="Friend Finder" />
+                      <h1>Friend Finder</h1>
+                      <p>Survey to find your closest match!</p>
                     </a>
                   </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/Gryffyndor-Project1/" target="_blank">
-                      <img src="assets/images/gov_portfolio.jpg" alt="Ohio Gov Portfolio" />
-                      <h1>2018 Ohio Gubernatorial Candidate Site</h1>
-                      <p>Candidate information and NYT Political Artile Search</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/GifSearch/" target="_blank">
-                      <img src="assets/images/giphy_portfolio.jpg" alt="Giphy Search Portfolio" />
-                      <h1>Giphy Search Tool</h1>
-                      <p>Search and Save Your Favorite Gifs</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
-                      <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
-                      <h1>Zoo Animal Hangman</h1>
-                      <p>Animal-Themed Hangman Game</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/TriviaGame/" target="_blank">
-                      <img src="assets/images/trivia_portfolio.jpg" alt="Ohio State Flag" />
-                      <h1>Ohio State Triva Game</h1>
-                      <p>State of Ohio Multiple Choice Trivia Game</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="#" alt="#">
-                      <img src="assets/images/cyrstals_portfolio.jpg" alt="Crystal Picture" target="_blank" />
-                      <h1>Crystal Game</h1>
-                      <p>Simple gem-based math game</p>
-                    </a>
-                  </div>
-                </li>
-                <br>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/liri-node-app/" target="_blank">
-                      <img src="assets/images/liri_portfolio.jpg" alt="LIRI Portfolio" />
-                      <h1>LIRI App</h1>
-                      <p>CLI Node Application</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/bamazon/" target="_blank">
-                      <img src="assets/images/bamazon_portfolio.jpg" alt="Bamazon Portfolio" />
-                      <h1>Bamazon</h1>
-                      <p>Amazon-like storefront CLI app</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://floating-wildwood-96845.herokuapp.com/" target="_blank">
-                      <img src="assets/images/burger.png" alt="Burger" />
-                      <h1>Burger Creator</h1>
-                      <p>Create and save your own list of burgers</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://www.tradetru.com/" target="_blank">
-                      <img src="assets/images/tradeTru.jpg" alt="Trade Tru" />
-                      <h1>Trade Tru</h1>
-                      <p>Natural wine education courses and information</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
-                      <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
-                      <h1>Zoo Animal Hangman</h1>
-                      <p>Animal-Themed Hangman Game</p>
-                    </a>
-                  </div>
-                </li>
-                <li class="hex">
-                  <div class="hexIn">
-                    <a class="hexLink" href="https://noplanetnoparty.github.io/Word-Guess-Game/" target="_blank">
-                      <img src="assets/images/zoo-animals_portfolio.jpg" alt="Zoo Portfolio" />
-                      <h1>Zoo Animal Hangman</h1>
-                      <p>Animal-Themed Hangman Game</p>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                </li> -->
+            </ul>
           </div>
-          <!-- </div> -->
         </div>
-        <!-- <div class="container">
+        <!-- </div> -->
+      </div>
+      <!-- <div class="container">
                 <p class="contactSection">Contact Me</p>
                 <ul id="hexGrid">
                   <li class="hex">
@@ -636,10 +594,11 @@
                     </div>
                   </li>
                 </ul> -->
+      <!-- </div> -->
       </div>
-      <p>
+      <!-- <p>
         <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
-      </p>
+      </p> -->
       <!-- </div> -->
     </article>
     <i class="fa fa-close strip__close"></i>
