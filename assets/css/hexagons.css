@@ -162,6 +162,8 @@ hr {
     margin-top: 20px;
     margin-bottom: 50px;
     width: 25%;
+    color: #fff;
+    /* border: 1px solid white; */
 }
 
 /*** HOVER EFFECT  **********************************************************************/
