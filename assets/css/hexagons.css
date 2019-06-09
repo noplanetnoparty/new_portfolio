@@ -53,7 +53,7 @@ body {
 .hexIn * {
     position: absolute;
     visibility: visible;
-    overflow: scroll;
+    /* overflow: scroll; */
     outline: 1px solid transparent;
     /* fix for jagged edges in FF on hover transition */
 }
@@ -82,12 +82,13 @@ body {
     transform: rotate3d(0, 0, 0, 0deg);
 }
 
-/* .hex h1, */
+.hex h1,
 .hex p {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     background-color: rgba(0, 128, 128, 0.8);
+    color: #fff;
     font-weight: 600;
     -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
     transition: transform .1s ease-out, opacity .1.5s ease-out;
@@ -96,7 +97,7 @@ body {
 .hex h1 {
     bottom: 50%;
     padding-top: 50%;
-    font-size: 1.75em;
+    font-size: 1.25em;
     font-weight: 900;
     z-index: 1;
     -webkit-transform: translate3d(0, -100%, 0);
