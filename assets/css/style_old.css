@@ -256,7 +256,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1.25em;
 }
 
@@ -268,11 +268,6 @@ p {
   z-index: 1;
   width: 100%;
   position: absolute;
-}
-
-.exp1 {
-  position: absolute;
-  overflow: scroll;
 }
 
 /*# sourceMappingURL=style_old.css.map */

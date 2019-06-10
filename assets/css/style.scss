@@ -320,7 +320,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1.25em;
 }
 
@@ -335,19 +335,14 @@ p {
   position: absolute;
 }
 
-.exp1 {
-  // width: 70%;
-  position: absolute;
-  // top: 0%;
-  overflow: scroll;
-}
-
-// .exp2 {
+// .exp1 {
 //   width: 70%;
-//   position: relative;
-//   top: 30%;
+//   position: absolute;
+//   top: 0%;
 //   overflow: scroll;
 // }
+
+
 
 // sass --watch style.scss style_old.css
 // to have scss file listen for changes
