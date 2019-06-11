@@ -270,4 +270,13 @@ p {
   position: absolute;
 }
 
+.container-new {
+  position: absolute;
+  width: 100%;
+  overflow: scroll !important;
+  padding: 0px;
+  height: 100vh;
+  margin-top: -200px;
+}
+
 /*# sourceMappingURL=style_old.css.map */
