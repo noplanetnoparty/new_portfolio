@@ -301,9 +301,9 @@ p {
   line-height: 1em;
 }
 
-/* .mainTitle {
+.mainTitle {
   margin: 0 auto;
-} */
+}
 
 .pupper {
   z-index: 1;
