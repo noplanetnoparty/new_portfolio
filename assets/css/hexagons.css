@@ -105,6 +105,16 @@ body {
     transform: translate3d(0, -100%, 0);
 }
 
+.hex h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
 /* 6 */
 
 .hex p {
@@ -114,7 +124,6 @@ body {
     -ms-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
 }
-
 
 
 

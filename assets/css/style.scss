@@ -186,12 +186,12 @@ $color5: #F24B4B;
     @include easeOut;
   }
 
-  .skill {
-    margin: 0 auto;
-    width: 60%;
-    height: 100vh;
-    // min-height: 70vh;
-  }
+  // .skill {
+  //   margin: 0 auto;
+  //   width: 60%;
+  //   height: 100vh;
+  //   min-height: 70vh;
+  // }
 
   &__strip--expanded {
     width: 100%;
@@ -349,8 +349,8 @@ p {
 }
 
 .container-ex {
-  overflow: scroll;
-  height: 90vh;
+  overflow: auto;
+  height: 100vh;
 }
 
 // .exp1 {
