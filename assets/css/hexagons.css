@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    /* font-size: 15px; */
     list-style-type: none;
 }
 
@@ -74,7 +74,7 @@ body {
 .hex img {
     left: -100%;
     right: -100%;
-    width: 100% auto;
+    /* width: 100% auto; */
     height: 100%;
     margin: 0 auto;
     -webkit-transform: rotate3d(10, 0, 0, 0deg);
@@ -129,41 +129,41 @@ body {
 
 /***ERIN CSS ***/
 
-.headDiv {
+/* .headDiv {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: bold;
     width: 100%;
     text-align: center;
-    /* padding: 60px; */
+    padding: 60px;
     padding-top: 60px;
     margin: 0 auto;
-}
+} */
 
-.contactSection {
+/* .contactSection {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin: 80px;
-}
+} */
 
-.topBar {
+/* .topBar {
     margin: 0 auto;
     width: 100%;
-    /* margin-left: 30%; */
-    /* text-align: center; */
-    /* overflow: hidden; */
-    /* display: flex; */
+    margin-left: 30%;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.headBar {
+/* .headBar {
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
     padding: 60px;
     text-align: right;
-}
+} */
 
 /* hr {
     text-align: center;
